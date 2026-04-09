@@ -151,7 +151,7 @@ const Nav = () => {
               </li>
             ))}
           </ol>
-          <ResumeButton href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <ResumeButton href="/de-portfolio/resume.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </ResumeButton>
         </StyledLinks>
