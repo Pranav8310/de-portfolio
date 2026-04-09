@@ -13,7 +13,7 @@ REPO_NAME="de-portfolio"
 echo "📋 Configuration:"
 echo "   GitHub Username: $GITHUB_USERNAME"
 echo "   Repository: $REPO_NAME"
-echo "   Site URL: https://$GITHUB_USERNAME.github.io/$REPO_NAME/"
+echo "   Site URL: https://github.com/$GITHUB_USERNAME/$REPO_NAME/"
 echo ""
 
 # Check if remote already exists
