@@ -44,7 +44,7 @@ const StyledEmailList = styled.div`
 const Email = () => {
   return (
     <StyledEmailList>
-      <a href="mailto:your.email@example.com">your.email@example.com</a>
+      <a href="mailto:pranavhingane07@gmail.com">pranavhingane07@gmail.com</a>
     </StyledEmailList>
   );
 };

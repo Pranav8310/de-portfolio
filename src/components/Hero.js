@@ -84,7 +84,7 @@ const Hero = () => {
       <a className="email-link" href="mailto:pranavhingane07@gmail.com">
         Get In Touch
       </a>
-      <a className="email-link" href="/Cv.pdf" target="_blank" rel="noopener noreferrer">
+      <a className="email-link" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
         Download Resume
       </a>
     </div>
