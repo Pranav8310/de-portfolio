@@ -80,8 +80,8 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit>
-        <a href="https://github.com/yourusername/portfolio">
-          <div>Designed & Built by Your Name</div>
+        <a href="https://github.com/Pranav8310/de-portfolio">
+          <div>Designed & Built by Pranav</div>
         </a>
       </StyledCredit>
     </StyledFooter>
