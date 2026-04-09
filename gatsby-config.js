@@ -4,7 +4,7 @@ module.exports = {
     title: "Data Engineer Portfolio",
     description: "Portfolio showcasing data engineering projects and architectures",
     author: "Pranav Hingane",
-    siteUrl: "https://yoursite.com",
+    siteUrl: "https://Pranav8310.github.io/de-portfolio",
   },
   plugins: [
     `gatsby-plugin-styled-components`,
