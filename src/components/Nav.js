@@ -140,7 +140,7 @@ const Nav = () => {
     <StyledHeader scrolled={scrolled}>
       <StyledNav>
         <StyledLogo>
-          <a href="/">D</a>
+          <a href="/">P</a>
         </StyledLogo>
 
         <StyledLinks>
