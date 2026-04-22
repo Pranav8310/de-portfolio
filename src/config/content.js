@@ -174,8 +174,4 @@ export const socialMedia = [
     name: 'Twitter',
     url: 'https://x.com/pranavhingane6',
   },
-  {
-    name: 'LeetCode',
-    url: 'https://leetcode.com/u/RU68HgaWbJ/',
-  },
 ];

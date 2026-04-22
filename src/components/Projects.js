@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import { useInView } from 'react-intersection-observer';
 import { projects } from '../config/content';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import argoK8sImg from '../images/argo_k8s.jpg';
+import bigqueryImg from '../images/bigquery.png';
+import dataprocImg from '../images/dataproc.jpg';
 
 const StyledProjectsSection = styled.section`
   max-width: 1000px;
@@ -298,6 +301,12 @@ const Projects = () => {
     triggerOnce: true,
   });
 
+  const imageMap = {
+    'argo_k8s.jpg': argoK8sImg,
+    'bigquery.png': bigqueryImg,
+    'dataproc.jpg': dataprocImg,
+  };
+
   return (
     <StyledProjectsSection id="projects" ref={ref}>
       <h2 className="numbered-heading">Featured Projects</h2>
@@ -349,9 +358,9 @@ const Projects = () => {
 
             <div className="project-image">
               <div className="img-wrapper">
-                {project.image ? (
+                {project.image && imageMap[project.image] ? (
                   <img
-                    src={require(`../images/${project.image}`).default}
+                    src={imageMap[project.image]}
                     alt={project.title}
                   />
                 ) : (
