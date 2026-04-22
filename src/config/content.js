@@ -46,6 +46,7 @@ export const projects = [
       'Spot instance utilization for cost optimization',
       'Centralized logging with Cloud Logging',
     ],
+    image: 'argo_k8s.jpg',
     github: '#',
     external: '#',
   },
@@ -60,6 +61,7 @@ export const projects = [
       'Schema evolution without downtime',
       'Multi-engine query federation',
     ],
+    image: 'bigquery.png',
     github: '#',
     external: '#',
   },
@@ -74,22 +76,26 @@ export const projects = [
       'Late-arriving data handling with watermarks',
       'Custom metrics and alerting with Cloud Monitoring',
     ],
+    image: 'dataproc.jpg',
     github: '#',
     external: '#',
   },
+];
+
+export const experience = [
   {
-    title: 'DuckDB-Powered Analytics Engine',
-    description:
-      'Created a lightweight analytics engine using DuckDB for local data exploration and rapid prototyping before scaling to cloud infrastructure. Integrated with Parquet files on GCS for seamless data access. Reduced analyst iteration time from hours to minutes.',
-    techStack: ['DuckDB', 'Python', 'Parquet', 'FastAPI', 'Cloud Storage', 'Metabase'],
-    architecture: [
-      'Columnar storage with Parquet format',
-      'Push-down predicate filtering',
-      'Zero-copy integration with Pandas/Polars',
-      'REST API for query execution',
+    company: 'T-Systems India',
+    title: 'Data Engineer',
+    url: 'https://www.t-systems.com',
+    range: 'Present',
+    responsibilities: [
+      'Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship',
+      'Lead two Kaizen workshops of process improvement which resulted in new 70% process time improvement respectively',
+      'Five Why analysis, Pareto, PDCA, Value Stream mapping Microsoft Excel VBA was employed in these projects',
+      'Productivity Metrics analysis & improvement: Lead implementation of solutions that drove efficiency through standardization, elimination, and automation',
+      'Internal Auditor ISO 9001:2015',
     ],
-    github: '#',
-    external: '#',
+    certifications: [],
   },
 ];
 
@@ -138,8 +144,8 @@ export const navLinks = [
     url: '#about',
   },
   {
-    name: 'System Design',
-    url: '#system-design',
+    name: 'Experience',
+    url: '#experience',
   },
   {
     name: 'Projects',
@@ -158,7 +164,7 @@ export const navLinks = [
 export const socialMedia = [
   {
     name: 'GitHub',
-    url: 'https://github.com/yourusername',
+    url: 'https://github.com/Pranav8310',
   },
   {
     name: 'Linkedin',
@@ -166,6 +172,10 @@ export const socialMedia = [
   },
   {
     name: 'Twitter',
-    url: 'https://twitter.com/yourusername',
+    url: 'https://x.com/pranavhingane6',
+  },
+  {
+    name: 'LeetCode',
+    url: 'https://leetcode.com/u/RU68HgaWbJ/',
   },
 ];

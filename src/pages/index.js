@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import About from '../components/About';
-import SystemDesign from '../components/SystemDesign';
+import Experience from '../components/Experience';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
@@ -12,7 +12,7 @@ const IndexPage = () => {
     <Layout>
       <Hero />
       <About />
-      <SystemDesign />
+      <Experience />
       <Projects />
       <Skills />
       <Contact />

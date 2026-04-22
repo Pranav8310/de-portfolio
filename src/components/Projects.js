@@ -263,6 +263,13 @@ const StyledProject = styled.div`
         mix-blend-mode: screen;
       }
 
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: ${({ theme }) => theme.borderRadius};
+      }
+
       div {
         width: 100%;
         height: 100%;
@@ -342,7 +349,14 @@ const Projects = () => {
 
             <div className="project-image">
               <div className="img-wrapper">
-                <div />
+                {project.image ? (
+                  <img
+                    src={require(`../images/${project.image}`).default}
+                    alt={project.title}
+                  />
+                ) : (
+                  <div />
+                )}
               </div>
             </div>
           </StyledProject>

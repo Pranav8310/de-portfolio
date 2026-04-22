@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { socialMedia } from '../config/content';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 const StyledSocialList = styled.div`
   display: flex;
@@ -62,6 +63,7 @@ const iconMap = {
   GitHub: FaGithub,
   Linkedin: FaLinkedin,
   Twitter: FaTwitter,
+  LeetCode: SiLeetcode,
 };
 
 const Social = () => {
