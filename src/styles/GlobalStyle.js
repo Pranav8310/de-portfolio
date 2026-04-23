@@ -77,6 +77,10 @@ const GlobalStyle = createGlobalStyle`
       font-family: ${({ theme }) => theme.fonts.mono};
       font-size: clamp(${({ theme }) => theme.fontSizes.md}, 3vw, ${({ theme }) => theme.fontSizes.xl});
       font-weight: 400;
+
+      @media (max-width: 480px) {
+        margin-right: 5px;
+      }
     }
 
     &:after {
@@ -88,6 +92,35 @@ const GlobalStyle = createGlobalStyle`
       height: 1px;
       margin-left: 20px;
       background-color: ${({ theme }) => theme.colors.lightestNavy};
+
+      @media (max-width: 1080px) {
+        width: 200px;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+        margin-left: 10px;
+      }
+
+      @media (max-width: 480px) {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  #content {
+    padding: 0 150px;
+
+    @media (max-width: 1080px) {
+      padding: 0 100px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0 50px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 0 25px;
     }
   }
 
@@ -98,6 +131,10 @@ const GlobalStyle = createGlobalStyle`
 
     @media (max-width: 768px) {
       padding: 80px 0;
+    }
+
+    @media (max-width: 480px) {
+      padding: 60px 0;
     }
   }
 
